@@ -1,0 +1,176 @@
+batch           continue  
+reconnecttime   120       
+Searching for host...
+Connecting to host...
+Authenticating...
+WARNING! Giving up security and accepting any host key as configured!
+Using username "hadoop".
+Authenticating with pre-entered password.
+Authenticated.
+Starting the session...
+Session started.
+Active session: [1] hadoop@219.223.242.218
+jar\WordCount.jar         |           5 KB |    0.0 KB/s | binary | 100%
+Searching for host...
+Connecting to host...
+Authenticating...
+WARNING! Giving up security and accepting any host key as configured!
+Using username "hadoop".
+Authenticating with pre-entered password.
+Authenticated.
+Starting the session...
+Session started.
+16/04/12 02:34:23 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted /user/hadoop/newoutput
+16/04/12 02:34:25 INFO client.RMProxy: Connecting to ResourceManager at master/192.168.1.100:8032
+16/04/12 02:34:27 INFO input.FileInputFormat: Total input paths to process : 9
+16/04/12 02:34:27 INFO mapreduce.JobSubmitter: number of splits:9
+16/04/12 02:34:27 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1459086007148_0019
+16/04/12 02:34:27 INFO impl.YarnClientImpl: Submitted application application_1459086007148_0019
+16/04/12 02:34:28 INFO mapreduce.Job: The url to track the job: http://master:8088/proxy/application_1459086007148_0019/
+16/04/12 02:34:28 INFO mapreduce.Job: Running job: job_1459086007148_0019
+16/04/12 02:34:32 INFO mapreduce.Job: Job job_1459086007148_0019 running in uber mode : false
+16/04/12 02:34:32 INFO mapreduce.Job:  map 0% reduce 0%
+16/04/12 02:34:35 INFO mapreduce.Job:  map 33% reduce 0%
+16/04/12 02:34:36 INFO mapreduce.Job:  map 100% reduce 0%
+16/04/12 02:34:39 INFO mapreduce.Job:  map 100% reduce 100%
+16/04/12 02:34:39 INFO mapreduce.Job: Job job_1459086007148_0019 completed successfully
+16/04/12 02:34:39 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=24489
+		FILE: Number of bytes written=1220947
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=31989
+		HDFS: Number of bytes written=12669
+		HDFS: Number of read operations=30
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=9
+		Launched reduce tasks=1
+		Data-local map tasks=6
+		Rack-local map tasks=3
+		Total time spent by all maps in occupied slots (ms)=21044
+		Total time spent by all reduces in occupied slots (ms)=1704
+		Total time spent by all map tasks (ms)=21044
+		Total time spent by all reduce tasks (ms)=1704
+		Total vcore-seconds taken by all map tasks=21044
+		Total vcore-seconds taken by all reduce tasks=1704
+		Total megabyte-seconds taken by all map tasks=21549056
+		Total megabyte-seconds taken by all reduce tasks=1744896
+	Map-Reduce Framework
+		Map input records=892
+		Map output records=3081
+		Map output bytes=40465
+		Map output materialized bytes=24537
+		Input split bytes=1023
+		Combine input records=3081
+		Combine output records=1357
+		Reduce input groups=682
+		Reduce shuffle bytes=24537
+		Reduce input records=1357
+		Reduce output records=682
+		Spilled Records=2714
+		Shuffled Maps =9
+		Failed Shuffles=0
+		Merged Map outputs=9
+		GC time elapsed (ms)=501
+		CPU time spent (ms)=2940
+		Physical memory (bytes) snapshot=2524012544
+		Virtual memory (bytes) snapshot=21106479104
+		Total committed heap usage (bytes)=1948254208
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=30966
+	File Output Format Counters 
+		Bytes Written=12669
+Command 'hadoop jar WordCount.jar hadooppro.WordCount'
+failed with return code 0 and error message
+16/04/12 02:34:25 INFO client.RMProxy: Connecting to ResourceManager at master/192.168.1.100:8032
+16/04/12 02:34:27 INFO input.FileInputFormat: Total input paths to process : 9
+16/04/12 02:34:27 INFO mapreduce.JobSubmitter: number of splits:9
+16/04/12 02:34:27 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1459086007148_0019
+16/04/12 02:34:27 INFO impl.YarnClientImpl: Submitted application application_1459086007148_0019
+16/04/12 02:34:28 INFO mapreduce.Job: The url to track the job: http://master:8088/proxy/application_1459086007148_0019/
+16/04/12 02:34:28 INFO mapreduce.Job: Running job: job_1459086007148_0019
+16/04/12 02:34:32 INFO mapreduce.Job: Job job_1459086007148_0019 running in uber mode : false
+16/04/12 02:34:32 INFO mapreduce.Job:  map 0% reduce 0%
+16/04/12 02:34:35 INFO mapreduce.Job:  map 33% reduce 0%
+16/04/12 02:34:36 INFO mapreduce.Job:  map 100% reduce 0%
+16/04/12 02:34:39 INFO mapreduce.Job:  map 100% reduce 100%
+16/04/12 02:34:39 INFO mapreduce.Job: Job job_1459086007148_0019 completed successfully
+16/04/12 02:34:39 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=24489
+		FILE: Number of bytes written=1220947
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=31989
+		HDFS: Number of bytes written=12669
+		HDFS: Number of read operations=30
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=9
+		Launched reduce tasks=1
+		Data-local map tasks=6
+		Rack-local map tasks=3
+		Total time spent by all maps in occupied slots (ms)=21044
+		Total time spent by all reduces in occupied slots (ms)=1704
+		Total time spent by all map tasks (ms)=21044
+		Total time spent by all reduce tasks (ms)=1704
+		Total vcore-seconds taken by all map tasks=21044
+		Total vcore-seconds taken by all reduce tasks=1704
+		Total megabyte-seconds taken by all map tasks=21549056
+		Total megabyte-seconds taken by all reduce tasks=1744896
+	Map-Reduce Framework
+		Map input records=892
+		Map output records=3081
+		Map output bytes=40465
+		Map output materialized bytes=24537
+		Input split bytes=1023
+		Combine input records=3081
+		Combine output records=1357
+		Reduce input groups=682
+		Reduce shuffle bytes=24537
+		Reduce input records=1357
+		Reduce output records=682
+		Spilled Records=2714
+		Shuffled Maps =9
+		Failed Shuffles=0
+		Merged Map outputs=9
+		GC time elapsed (ms)=501
+		CPU time spent (ms)=2940
+		Physical memory (bytes) snapshot=2524012544
+		Virtual memory (bytes) snapshot=21106479104
+		Total committed heap usage (bytes)=1948254208
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=30966
+	File Output Format Counters 
+		Bytes Written=12669.
+get: `/home/hadoop/newoutput/_SUCCESS': File exists
+get: `/home/hadoop/newoutput/part-r-00000': File exists
+Command 'hadoop fs -get /user/hadoop/newoutput /home/hadoop/'
+failed with return code 1 and error message
+get: `/home/hadoop/newoutput/_SUCCESS': File exists
+get: `/home/hadoop/newoutput/part-r-00000': File exists.
+newoutput                 |            0 B |    0.0 KB/s | binary |   0%
+_SUCCESS                  |            0 B |    0.0 KB/s | binary |   0%
+part-r-00000              |          12 KB |  261.6 KB/s | binary | 100%
+winscp> 
